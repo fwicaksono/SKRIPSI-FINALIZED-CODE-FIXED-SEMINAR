@@ -93,7 +93,7 @@ def predict_classes(model, class_mapping, merged_df):
 st.title("Sistem Identifikasi Arah Guguran Merapi Berdasarkan Sinyal Seismik")
 
 # Pilih model
-model_path = 'model_KNN_9010.pkl'
+model_path = 'Model/model_KNN_9010.pkl'
 
 model, class_mapping = load_model_and_mapping(model_path)
 
